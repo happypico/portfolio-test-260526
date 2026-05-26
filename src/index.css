@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Pretendard", system-ui, sans-serif;
+  --font-display: "Fredoka", sans-serif;
+  --font-mono: "Space Mono", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  --color-retro-cream: #FDFBF7;
+  --color-retro-orange: #FF6B4A;
+  --color-retro-peach: #FFB399;
+  --color-retro-mint: #9EE0C7;
+  --color-retro-blue: #8AC7E6;
+  --color-retro-yellow: #FED452;
+}
+
+/* Custom whimsical animation styles */
+@keyframes shake-tiny {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(1px, 1px) rotate(0.5deg); }
+  50% { transform: translate(-1px, 1px) rotate(-0.5deg); }
+  75% { transform: translate(1px, -1px) rotate(0.5deg); }
+}
+
+.animate-shake-tiny {
+  animation: shake-tiny 0.8s ease-in-out infinite;
+}
+
+.shadow-brutalist {
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.shadow-brutalist-lg {
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.shadow-brutalist-xl {
+  box-shadow: 12px 12px 0px 0px #000000;
+}
+
+.shadow-brutalist-button {
+  box-shadow: 3px 3px 0px 0px #000000;
+}
+
+.shadow-brutalist-button:active {
+  box-shadow: 0px 0px 0px 0px #000000;
+  transform: translate(3px, 3px);
+}
+
+.bg-dot-grid {
+  background-image: radial-gradient(#000000 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+}
+
+/* Scrollbar retro styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #FDFBF7;
+  border-left: 3px solid #000000;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #FF6B4A;
+  border-radius: 6px;
+  border: 3px solid #FDFBF7;
+}
+

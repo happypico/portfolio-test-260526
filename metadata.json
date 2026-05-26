@@ -1,0 +1,8 @@
+{
+  "name": "Hong Eunyoung Portfolio",
+  "description": "Animator Hong Eunyoung's creative interactive portfolio, styled as a modern retro-cartoon animation studio concept.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

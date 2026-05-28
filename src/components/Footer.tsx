@@ -48,7 +48,7 @@ export default function Footer() {
             LET'S MAKE IT MOVE!
           </h2>
           <p className="text-black font-semibold font-grotesk max-w-xl mx-auto">
-            새로운 아이디어, 브랜드 컬래버레이션 등 독창적인 움직임이 필요한 프로젝트라면 언제든지 연락해주세요!
+            원화/동화(動画) 컷 작업, 작감 수정 대응, 시리즈 제작 협업이 필요하시면 편하게 연락주세요!
           </p>
           <div className="w-32 h-1 bg-black rounded-full mt-3"></div>
         </div>
@@ -80,7 +80,7 @@ export default function Footer() {
                   Hong Eunyoung's Animator Workspace
                 </span>
                 <span className="text-[11px] font-sans font-medium text-gray-500 block mt-1">
-                  창의적인 아이디어가 현실의 프레임으로 피어나는 상상의 집합체
+                  컷을 ‘움직임’으로 완성하기 위한 작업 공간 (타이밍·spacing·라인 컨트롤)
                 </span>
               </div>
             </div>
@@ -175,7 +175,7 @@ export default function Footer() {
                     <textarea 
                       required
                       rows={5}
-                      placeholder="이곳에 기우가 가득한 모션 그래픽 기획 및 캐릭터 애니메이션 제작 제안을 적어주세요!" 
+                      placeholder="원화/동화(動画), 작감 수정 대응, 컷 단위 작화 협업 등 작업 문의 내용을 적어주세요!" 
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
                       className="w-full bg-retro-cream border-2 border-black p-3.5 rounded-xl font-sans text-sm focus:outline-none focus:bg-white transition shadow-brutalist-button resize-none"
@@ -223,7 +223,7 @@ export default function Footer() {
         {/* Lower copyright bar */}
         <div className="mt-16 pt-8 border-t-3 border-black flex flex-col md:flex-row md:items-center md:justify-between text-center gap-4 text-xs font-mono text-gray-700">
           <span>
-            © 2026 HONG EUNYOUNG. ALL DESIGN CEL STRUCTURES RESERVED.
+            © 2026 HONG EUNYEONG. ALL DESIGN CEL STRUCTURES RESERVED.
           </span>
           <div className="flex justify-center items-center gap-1.5 select-none">
             <span>Hand-crafted with</span>

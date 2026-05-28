@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+## 프로젝트 개요
 
-# Run and deploy your AI Studio app
+2D 일본 애니메이터(원화/동화) 컨셉의 포트폴리오 웹사이트입니다.  
+Vite + React + TypeScript 기반이며, 주요 문구/경력/스킬 데이터는 `src/data.ts`에 정리되어 있습니다.
 
-This contains everything you need to run your app locally.
+## 로컬 실행 방법 (Windows / PowerShell)
 
-View your app in AI Studio: https://ai.studio/apps/b6dbf8d5-6386-4d7a-ad8e-04ceb84976cf
+- **필수**: Node.js (LTS 권장)
 
-## Run Locally
+```powershell
+cd "C:\Users\green\Desktop\project-simin\portfolio-test-260526"
+npm install
+npm run dev
+```
 
-**Prerequisites:**  Node.js
+브라우저에서 `http://localhost:3000/` 로 접속하세요.
 
+## 이번 수정 내역 (2026-05-28)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **기능/콘텐츠 변경**
+  - 히어로 섹션 카피를 **2D 일본 애니메이터(원화/동화) 기준**으로 개편
+  - 프로필 소개(`profileText`)를 **원화(原画)·동화(動画)·레이아웃·acting·타이밍·spacing·리테이크 대응** 중심으로 재작성
+  - 스킬 항목을 **`Key Animation (原画)` / `In-between (動画)` / `Cleanup & Line Art`**로 정리
+  - 컨택트 섹션의 안내/placeholder 문구를 **시리즈 제작 협업/작감 수정 대응** 톤으로 변경
+
+- **버그 수정**
+  - 이름 표기 오타: **`HONG EUNYOUNG` → `HONG EUNYEONG`** (히어로/푸터)
+
+- **변경된 파일(영향 범위)**
+  - `src/components/Hero.tsx`
+  - `src/components/Profile.tsx`
+  - `src/components/Skills.tsx`
+  - `src/components/Footer.tsx`
+  - `src/data.ts`
+  - `README.md`

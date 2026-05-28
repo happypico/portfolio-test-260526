@@ -154,7 +154,7 @@ export default function Skills() {
                 <Zap className="w-5 h-5 text-black" />
               </div>
               <p className="text-xs md:text-sm font-sans font-semibold text-black">
-                💡 <b>TIP:</b> In-between Animation은 퀄리티 높은 극강의 5스타(★★★★★) 숙련도를 자랑하며, 매끄럽고 일렁이는 모션을 완성해냅니다.
+                💡 <b>TIP:</b> (動画) In-between은 타이밍과 spacing의 설계가 핵심입니다. 라인 품질과 모델 유지까지 함께 챙겨야 “일본 애니”다운 리듬이 살아납니다.
               </p>
             </div>
           </div>

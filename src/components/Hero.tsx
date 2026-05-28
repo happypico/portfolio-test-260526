@@ -17,7 +17,7 @@ export default function Hero() {
 
       <div className="absolute top-6 right-4 md:right-12 rotate-[4deg] hidden sm:flex items-center gap-2 bg-retro-mint text-black px-4 py-1.5 rounded-lg border-2 border-black text-xs md:text-sm font-mono font-bold shadow-brutalist z-10">
         <Sparkles className="w-4 h-4 text-retro-orange animate-bounce" />
-        <span>CEL_ARTIST: ACTIVE</span>
+        <span>SAKUGA_MODE: ON</span>
       </div>
 
       {/* Main Hero Container */}
@@ -30,7 +30,7 @@ export default function Hero() {
           className="mb-6 bg-retro-orange border-3 border-black text-white px-6 py-2 rounded-xl text-sm md:text-lg font-bold font-grotesk tracking-widest shadow-brutalist select-none uppercase inline-flex items-center gap-2"
         >
           <Star className="w-5 h-5 fill-current text-retro-yellow animate-pulse" />
-          CREATIVE ANIMATION WORLD
+          2D JAPANESE ANIME WORKFLOW
           <Star className="w-5 h-5 fill-current text-retro-yellow animate-pulse" />
         </motion.div>
 
@@ -45,7 +45,7 @@ export default function Hero() {
             textShadow: "6px 6px 0px #000000"
           }}
         >
-          HONG EUNYOUNG
+          HONG EUNYEONG
         </motion.h1>
 
         {/* Role Subtitle with beautiful badge */}
@@ -58,12 +58,12 @@ export default function Hero() {
           <span 
             className="text-4xl sm:text-5xl md:text-7xl font-display font-bold text-retro-mint bg-black px-8 py-3 rounded-2xl border-4 border-white inline-block shadow-brutalist tracking-wider"
           >
-            ANIMATOR
+            2D ANIME ANIMATOR
           </span>
           
           <div className="absolute -bottom-5 -right-6 rotate-[12deg] bg-retro-peach text-black border-2 border-black font-mono font-extrabold text-[10px] md:text-xs px-2 py-1 rounded shadow-brutalist uppercase select-none flex items-center gap-1">
             <Award className="w-3 h-3 text-retro-orange" />
-            2D SPECIALIST
+            KEY / IN-BETWEEN
           </div>
         </motion.div>
 
@@ -74,7 +74,7 @@ export default function Hero() {
           transition={{ delay: 0.5 }}
           className="text-lg md:text-2xl text-black font-grotesk font-semibold max-w-2xl bg-white border-3 border-black p-4 rounded-2xl shadow-brutalist leading-relaxed"
         >
-          "I help visual stories stand out through rich emotions and dynamic, fluid cels."
+          "감정 연기(acting)와 타이밍으로 장면의 설득력을 올리는 2D 일본 애니메이터입니다."
           <br />
           <span className="text-sm md:text-base font-normal font-sans text-gray-700 mt-2 block">
             📍 Based in {contactInfo.location} · 📧 {contactInfo.email}

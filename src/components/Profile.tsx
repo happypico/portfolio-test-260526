@@ -70,7 +70,7 @@ export default function Profile() {
             <div className="mt-8 bg-black text-retro-cream p-4 rounded-2xl border-2 border-white max-w-xs relative text-sm shadow-brutalist animate-shake-tiny">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-b-[10px] border-b-black"></div>
               <p className="font-semibold text-center leading-normal">
-                "움직임은 단순한 프레임의 합이 아닌, 마음의 파동을 전달하는 도구입니다."
+                "움직임은 ‘잘 그린 그림’이 아니라, ‘설득되는 연기’에서 시작된다고 믿습니다."
               </p>
             </div>
           </div>
